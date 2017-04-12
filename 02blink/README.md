@@ -291,11 +291,11 @@ sudo python led.py
 ![最终效果](images/object.jpg)
 
 ## 相关课程目录
-1. [准备工作](01prepare)
-1. [点亮LED](02blink)
-1. [呼吸灯](03fading-led)
-1. [用单位数码管显示数字倒计时](04digital-1)
-1. [用双位数码管显示CPU温度](05digital-2)
+1. [准备工作](../01prepare)
+1. [点亮LED](../02blink)
+1. [呼吸灯](../03fading-led)
+1. [用单位数码管显示数字倒计时](../04digital-1)
+1. [用双位数码管显示CPU温度](../05digital-2)
 1. 控制蜂鸣器发声
 1. 用温湿度探头检测室内温度
 1. 用光敏传感器检测光线强度
