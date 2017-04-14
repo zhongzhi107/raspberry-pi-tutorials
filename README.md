@@ -6,12 +6,21 @@
 
 * 对物联网感兴趣
 * 有一定的软件开发基础
-* 熟悉Unix/Linux
-* 了解python
+* 熟悉 `Unix/Linux` 操作系统
+* 了解 `python` 或 `JavaScript`
 * 无电子基础
 * 无硬件开发基础
 
-如果你觉得该项目不错，请点击右上方的 `⭐️ Star` 加星支持
+所有教程编程部分均有 `python版` 和 `JavaScript版`，代码在 `code` 目录中。如果你安装的是 Raspbian 系统的话，系统默认就安装了 python 和 python GPIO；如果你希望使用 JavaScript 作为编程语言，你需要检查系统是否安装了 nodejs
+```
+node -v
+```
+如果系统安装了nodejs，有输出版本信息。另外，还需要安装 `rpio`
+```
+npm install rpio --save
+```
+
+如果你觉得该项目不错，**请点击右上方的 `⭐️ Star` 加星支持。**
 
 ## 目录
 1. [准备工作](01prepare)

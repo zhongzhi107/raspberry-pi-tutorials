@@ -40,6 +40,7 @@ GPIO（General Purpose I/O Ports）意思为通用输入/输出端口，通俗�
 那么这40根引脚具体的用途和定义是什么呢，请看下面的图：
 
 ![GPIO](images/rpi-pins-40-0.png)
+（这张图以后经常要用到，建议保存下来，方便以后使用）
 
 这个图是一个比较全面的一个定义，主要是因为对于这40根引脚有不同的编号规则来定义
 虽然不同的规则叫的名字不一样，但实际的用途是一致的
@@ -59,6 +60,9 @@ GPIO（General Purpose I/O Ports）意思为通用输入/输出端口，通俗�
 
 ### python GPIO
 该库更确切的名称为`raspberry-gpio-python`，树莓派官方资料中推荐且容易上手。python GPIO是一个小型的python库，可以帮助用户完成raspberry相关IO口操作。但是python GPIO库还没有支持SPI、I2C或者1-wire等总线接口。除了python GPIO之外，还有众多的python扩展库（例如webiopi），毫无疑问的说python非常适合树莓派，树莓派也非常适合python。
+
+### rpio
+这是一个 JavaScript 语言操作 GPIO 的库，方法名和参数和 python GPIO 非常接近，更多信息请浏览[官方网站](https://github.com/jperkin/node-rpio)
 
 ## 连线图
 在开始连接硬件电路之前，首先要做的事是将树莓派电脑关机，并断开电源。因为如果树莓派主板带电的时候，进行插接电路可能会导致电子元器件的烧毁，所以一定要记住：
