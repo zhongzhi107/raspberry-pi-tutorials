@@ -46,7 +46,7 @@ import RPi.GPIO as GPIO
 import time
 
 # 定义引脚编号
-channel = 11
+channel = 12
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(channel, GPIO.OUT)

@@ -1,0 +1,16 @@
+{
+  "name": "03fading-led",
+  "version": "1.0.0",
+  "description": "",
+  "main": "led.js",
+  "dependencies": {
+    "rpio": "^0.9.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "sudo node breathing-light.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
