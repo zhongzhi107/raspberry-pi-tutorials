@@ -19,7 +19,7 @@
 下面对本实验中要涉及到的一些电子元件和专业名称做简单介绍：
 
 ### 面包板
-![面包板](images/bread-board.jpg)
+![面包板](https://github.com/zhongzhi107/raspberry-pi-tutorials/edit/master/02blink/images/bread-board.jpg)
 
 面包板是专为电子电路的无焊接实验设计制造的，板子上有很多小插孔，由于各种电子元器件可根据需要随意插入或拔出，免去了焊接，节省了电路的组装时间，而且元件可以重复使用，所以非常适合电子电路的组装、调试和训练。
 
